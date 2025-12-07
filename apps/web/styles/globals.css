@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body, #__next {
+  height: 100%;
+}
+
+body {
+  font-family: Inter, ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;
+}
+
+/* Grid animation styles */
+.anim-grid-container {
+  position: relative;
+  margin: 2rem auto;
+}
+.grid-box {
+  position: relative;
+  margin: 0 auto;
+}
+.square {
+  position: absolute;
+  width: 4px;
+  height: 4px;
+  border-radius: 1px;
+  background: #e6eef8; /* default color */
+  opacity: 0;
+  transform: var(--enter-transform, translateY(8px)) scale(0.98);
+  transition: opacity 120ms ease, transform 150ms ease, left 200ms ease, top 200ms ease, background-color 180ms ease;
+  box-shadow: 0 1px 2px rgba(12,18,31,0.06) inset;
+}
+.square.visible {
+  opacity: 1;
+  transform: translateY(0) scale(1);
+}
+.square.highlight {
+  box-shadow: 0 6px 20px rgba(44,154,255,0.18);
+}
+
+/* Utility: center container */
+.center { text-align: center; }
+

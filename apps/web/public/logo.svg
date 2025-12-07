@@ -1,0 +1,27 @@
+<svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+  <rect width="512" height="512" fill="#ffffff"/>
+  
+  <!-- Row 1 -->
+  <rect x="16" y="16" width="112" height="112" fill="#2c9aff" rx="8"/>
+  <rect x="144" y="16" width="112" height="112" fill="#8bd17f" rx="8"/>
+  <rect x="272" y="16" width="112" height="112" fill="#ffb86b" rx="8"/>
+  <rect x="400" y="16" width="96" height="112" fill="#9b7bff" rx="8"/>
+  
+  <!-- Row 2 -->
+  <rect x="16" y="144" width="112" height="112" fill="#4fd1c5" rx="8"/>
+  <rect x="144" y="144" width="112" height="112" fill="#ff8fb8" rx="8"/>
+  <rect x="272" y="144" width="112" height="112" fill="#ffd36b" rx="8"/>
+  <rect x="400" y="144" width="96" height="112" fill="#7ec0ff" rx="8"/>
+  
+  <!-- Row 3 -->
+  <rect x="16" y="272" width="112" height="112" fill="#c48cff" rx="8"/>
+  <rect x="144" y="272" width="112" height="112" fill="#7ee1a6" rx="8"/>
+  <rect x="272" y="272" width="112" height="112" fill="#2c9aff" rx="8"/>
+  <rect x="400" y="272" width="96" height="112" fill="#8bd17f" rx="8"/>
+  
+  <!-- Row 4 -->
+  <rect x="16" y="400" width="112" height="96" fill="#ffb86b" rx="8"/>
+  <rect x="144" y="400" width="112" height="96" fill="#9b7bff" rx="8"/>
+  <rect x="272" y="400" width="112" height="96" fill="#4fd1c5" rx="8"/>
+  <rect x="400" y="400" width="96" height="96" fill="#ff8fb8" rx="8"/>
+</svg>
